@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp"
+    android:background="@drawable/list_item_background">
+
+    <TextView
+        android:id="@+id/txtPlantCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bitki Kodu: "
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/txtPlantType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tür: " />
+
+    <TextView
+        android:id="@+id/txtPlantDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dikim Tarihi: " />
+
+    <TextView
+        android:id="@+id/txtLastWaterDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Son Sulama Tarihi: " />
+
+    <TextView
+        android:id="@+id/txtWaterAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sulama Miktarı (litre): " />
+
+    <!-- Gecikme Uyarısı -->
+    <TextView
+        android:id="@+id/txtWateringWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sulama Zamanı Gecikti!"
+        android:textColor="@android:color/holo_red_dark"
+        android:visibility="gone" />
+</LinearLayout>

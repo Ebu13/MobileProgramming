@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "61640804449",
+    "project_id": "booktracker-5101f",
+    "storage_bucket": "booktracker-5101f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:61640804449:android:7ec2a88e130a6c8c138220",
+        "android_client_info": {
+          "package_name": "com.example.booktracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "61640804449-o8mg4fi6oabjgtaf9ito99b3nmq7g451.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.booktracker",
+            "certificate_hash": "e9d5759615277052ea30226d0ae34903ad990b2f"
+          }
+        },
+        {
+          "client_id": "61640804449-frovk0maippi4re7upqa7jkhir438v6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCk2opKT_sHsSOHJGJexj0yslDtopTGGhk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "61640804449-frovk0maippi4re7upqa7jkhir438v6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

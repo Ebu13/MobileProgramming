@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editPlantCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bitki Kodu" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/plant_types"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editPlantDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dikim Tarihi (YYYY-MM-DD)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editWaterDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Son Sulama Tarihi (YYYY-MM-DD)"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editWaterAmount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Sulama Miktarı (litre)"
+        android:minHeight="48dp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:onClick="savePlant" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SanalBahce</string>
+
+    <string-array name="plant_types">
+        <item>Çiçek</item>
+        <item>Kaktüs</item>
+        <item>Sukulent</item>
+        <item>Ağaç</item>
+    </string-array>
+</resources>
